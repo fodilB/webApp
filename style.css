@@ -1,0 +1,118 @@
+
+body{ 
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+    background-color: #383C3F;
+     }
+
+.jumbotron{
+  margin-bottom: 0em;
+}
+
+.desc{
+  text-shadow:
+    2px 2px 4px #000000 rgba(0,0,0,0.3);
+  font-size: 20px;
+}
+
+nav {
+  background-color: #fff;
+  border: 1px solid black;
+  padding-bottom: .5rem;
+}
+
+nav.navbar-default {
+  border-color: #444444;
+  background-color:#ecf90;
+  padding-bottom:2px;
+}
+#Home {
+    padding-top: 7em;
+    padding-bottom: 9em;
+    color: #f1ffff;
+       background: url(https://s3.postimg.org/pgomjz0dv/footer_lodyas.png) ; 
+  
+}
+#Home ul{
+  padding-top:1em;
+}
+
+#Home ul a{
+  color:white;
+}
+
+#Home ul li a:hover{
+  position:relative;
+  top:-5px;
+  color: #2e9cd6;
+}
+
+#Home ul li{
+  display:inline-block;
+  padding:1em 1em;
+}
+
+#about{
+   border: 10px 0 10px 0 solid #333333;
+  padding: 2em 0 7em 0;
+  background-image: url("https://s27.postimg.org/aojyg3mjn/stardust_2_X.png");
+  color: white;
+  font-size: 18px;
+}
+#about img{
+  position:relative;
+  bottom:-2em;
+}
+
+#portfolio {
+  padding: 4em 0 6em 0;
+  background-image: url('https://s3.postimg.org/pgomjz0dv/footer_lodyas.png');
+  background-color: #565E65;
+  z-index: 999;
+  color: white;
+}
+
+div.portfolio-entries {
+  padding-top: 4em;
+}
+
+div.portfolio-entries a {
+  color: white;
+}
+
+div.portfolio-entries a:hover {
+  position: relative;
+  top: -1em;
+  opacity: .40;
+}
+
+#portfolio div.caption {
+  display: block;
+  padding: 1.25em 0 .75em 0;
+  background-color: #414141;
+}
+
+#contact{
+  padding:8em 0;
+  color:white;
+}
+#contact ul a{
+  color:white;
+}
+#contact ul li a:hover{
+  color: #2e9cd6;
+  position: relative;
+  top:-5px;
+}
+#contact ul li {
+  display: inline-block;
+  padding: 1em 1.5em;
+}
+
+footer {
+  background-color: #383C3F;
+  color: white;
+  padding: 2em 9em;
+}
+
+
